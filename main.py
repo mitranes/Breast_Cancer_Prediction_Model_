@@ -108,8 +108,8 @@ if __name__ == "__main__":
     X_train_norm, mu, sigma = z_score_norm_data(X_train)
     w_in = np.zeros_like(X_train_norm[0])
     b_in = 0.0
-    alpha = 0.1
-    iters = 1000
+    alpha = 0.001
+    iters = 5000
     w_final, b_final, J_history = compute_gradient_descent_logistic(X_train_norm,y_train,w_in,b_in,compute_cost_logistic,compute_gradient_logistic,alpha,iters)
     print("Final W is ", w_final)
     print("Final b is ", b_final)
