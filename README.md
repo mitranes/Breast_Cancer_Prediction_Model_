@@ -1,0 +1,1 @@
+A Breast Cancer Prediction Model using Logistic Regression and Feature Scaling. The dataset was found https://www.kaggle.com/datasets/merishnasuwal/breast-cancer-prediction-dataset and 400 of the 569 entries were used to train the model and the remainder was used to test the model. 
